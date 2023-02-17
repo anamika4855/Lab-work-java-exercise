@@ -1,0 +1,17 @@
+public class Employee{
+    int id;
+    String empName;
+    Employee(int id,String name){
+        this.id = id;
+        this.empName = name;
+    }
+    void info(){
+        System.out.println(id);
+        System.out.println(empName);
+    }
+    public static void main(String[] args){
+        Employee person1=new Employee(4855,"Anamika");
+        person1.info();
+    }
+}
+
